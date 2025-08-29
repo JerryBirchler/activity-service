@@ -2,7 +2,7 @@
 
 ## Target platform and audience
 
-This project is entirely written in JavaScript and runs on nodejs. It uses Cassandra as its database. It is intended to run in a Docker image for simplicity, but could of course be run as a stand alone service. The design is meant to handle extreme concurrency and failover. It should be possible to run this on any windows, linux or unix platform. 
+This project is entirely written in JavaScript and runs on nodejs. It uses a variant of Cassandra called scylldb as its database. It is intended to run in a Docker image for simplicity, but could of course be run as a stand alone service. The design is meant to handle extreme concurrency and failover. It should be possible to run this on any windows, linux or unix platform. 
 
 ## How is it customizable yet generic?
 
